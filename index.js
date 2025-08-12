@@ -43,7 +43,7 @@ app.use(require('cookie-session')({
 app.use(require('./src/middlewares/authentication'));
 
 // Logger
-app.use(require('./src/middlewares/logger'));
+//app.use(require('./src/middlewares/logger'));
 
 /* ------------------------------------------------------- *
 // Logger
